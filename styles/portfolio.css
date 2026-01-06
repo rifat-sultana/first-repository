@@ -24,12 +24,13 @@
 .section-heading{
   max-width: 827px;
   text-align: center;
-  margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 .section-heading h2 {
   font-size: 35px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .section-heading p {
@@ -84,7 +85,7 @@ nav .menu a{
   align-items: center;
 
 }
- btn .cv{
+ .btn {
   background-color: #FD6E0A;
   border: none;
   padding: 18px 35px ;
@@ -95,8 +96,10 @@ nav .menu a{
 }
 
 
-#about{
-  padding: 130px
+#about,
+#skills,
+#resume{
+  padding-top: 130px
 }
 
 #about .about-container{
@@ -121,5 +124,139 @@ nav .menu a{
 
 
 .about-info .info-card h4{
+  font-size: 20px;}
+
+  #skills{
+  padding: 130px 0;
+  }
+
+#skills .skills-container{
+  width: 71%;
+  max-width:1140px;
+  margin: 0 auto;
+  padding: 0 20px
+}
+
+#skills .skills-container .skills-box{
+  display: flex;
+  gap: 24px
+}
+
+.skills-box .skills-card{
+   padding:30px;
+   max-width: 267px;
+   box-shadow: 0 6px 50px 0 #0000001e;
+  }
+
+  .skills-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+  }
+
+.skills-card h3{
+  font-size: 20px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.skills-card p{
+font-size: 20px;
+  margin-bottom: 30px;
+line-height: 28px;
+   color:#757575
+}
+
+
+#resume{
   font-size: 20px;
 }
+
+ .education-item,.experience-item p{
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+
+#resume .education p{
+ width: 30px;
+}
+
+
+
+.education,
+.experience{
+ width: 50%;
+}
+
+.education h2,
+.experience h2{
+  color: #474747;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.education-item h3,
+.experience-item h3{
+  font: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color:#474747
+
+} 
+
+.education-item h5,
+.experience-item h5{
+  font: 20px;
+  font-weight: 600;
+  margin-bottom:20px;
+  color: #474747;
+  
+}
+
+.education p,
+.experience p{
+  font-size: 14px;
+ margin-top: 8px;
+   color:#757575
+}
+
+.button .cv{
+  background-color: #FD6E0A;
+  border: none;
+  padding: 18px 35px ;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.hr{
+  color:#D1D1D1;
+  margin: 30px 0;
+}
+
+.resume-box{
+ display: flex; 
+  justify-content: space-between;
+  padding: 0 130px;
+  gap: 80px
+}
+
+
+#resume .resume-box{
+   width:71%;
+   max-width:1140px;
+    margin: 113px auto 0;
+    display: flex;
+}
+
+.education-item,
+.experience-item{
+  margin-right:47px;
+  max-width: 511px;
+}
+
+.text-center{
+  text-align: middle;
+}
+
